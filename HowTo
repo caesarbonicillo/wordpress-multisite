@@ -1,0 +1,17 @@
+Through Wordpress admin- Dash Board
+
+Tools/Network Setup
+  ~ copy 
+        define('MULTISITE', true);
+        define('SUBDOMAIN_INSTALL', false);
+        define('DOMAIN_CURRENT_SITE', 'www.Whatever website name'); //line is unique
+        define('PATH_CURRENT_SITE', '/What-ever-Path/'); //line is unique
+        define('SITE_ID_CURRENT_SITE', 1);
+        define('BLOG_ID_CURRENT_SITE', 1);
+  ~ WP-Config add new file. 
+      
+     Add the following to your .htaccess file in /home/da****2/**********.com/*********/, replacing other WordPress rules:
+     
+     
+     
+     then log out of WP
