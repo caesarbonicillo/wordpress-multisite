@@ -1,5 +1,6 @@
 Through Wordpress admin- Dash Board
 
+Step 1:
 Tools/Network Setup
   ~ copy 
         define('MULTISITE', true);
@@ -10,8 +11,17 @@ Tools/Network Setup
         define('BLOG_ID_CURRENT_SITE', 1);
   ~ WP-Config add new file. 
       
-     Add the following to your .htaccess file in /home/da****2/**********.com/*********/, replacing other WordPress rules:
+  
+ Step 2:
+  Add the following to your .htaccess file in /home/da****2/**********.com/*********/, replacing other WordPress rules:
+    
      
-     
-     
+  Step 3:
      then log out of WP
+
+Step 4: 
+  Log back into WP-Admin you will now be Network Admin
+  
+Step 5: 
+  Top of Dashboard:  Network Admin/DashBoard
+    ~
